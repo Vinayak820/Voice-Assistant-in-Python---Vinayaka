@@ -3,11 +3,17 @@ This is a Python-based voice assistant that can answer questions, open websites,
 
 
 🔐 Security Password Notice
+<br>
 ⚠️ Important:
+<br>
 Before using any features, the assistant will ask you to say a password (like “Today is Sunday”) to verify you're the real user.
+<br>
 You can change this password in the code to whatever phrase you like.
+<br>
 Example in the code
+<br>
 if 'today is sunday' in query:
+<br>
     # You can replace 'today is sunday' with your own secret phrase
     
 
