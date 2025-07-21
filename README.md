@@ -1,6 +1,15 @@
 # Voice-Assistant-in-Python---Vinayaka
 This is a Python-based voice assistant that can answer questions, open websites, tell jokes, send emails, and do more — all by listening to your voice! Think of it as your own mini Alexa or Jarvis, built by Vinayak.
 
+🔐 Security Password Notice
+⚠️ Important:
+Before using any features, the assistant will ask you to say a password (like “Today is Sunday”) to verify you're the real user.
+You can change this password in the code to whatever phrase you like.
+# Example in the code
+if 'today is sunday' in query:
+    # You can replace 'today is sunday' with your own secret phrase
+    
+
 **Vinayakaa** is a fun and powerful voice assistant built in Python. Just speak, and it can do things like:
 - Search on Google, Wikipedia, or YouTube
 - Tell you jokes 😄
