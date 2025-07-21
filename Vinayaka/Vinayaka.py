@@ -7,6 +7,8 @@ import os
 import smtplib  #for sending email
 import requests
 
+# Read code carefully, In order to use all mentioned feature you need to make some changes.
+
 
 # To use a voice of a Computer we use sapi5
 engine = pyttsx3.init('sapi5') # Speech Application Programming Interface 
