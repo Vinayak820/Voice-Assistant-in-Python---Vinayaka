@@ -16,6 +16,7 @@ Example in the code
 if 'today is sunday' in query:
 <br>
     You can replace 'today is sunday' with your own secret phrase
+<hr>
     
 
 **Vinayakaa** is a fun and powerful voice assistant built in Python. Just speak, and it can do things like:
