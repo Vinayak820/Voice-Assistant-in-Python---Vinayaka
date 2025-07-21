@@ -71,8 +71,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login('vinayakchauhan82@gmail.com','Chauhan82@')
-    server.sendmail('vinayakchauhan82@gmail.com',to,content)
+    server.login('YourEmail','YourPassword')
+    server.sendmail('YourEmail',to,content)
     server.close()
      
 
@@ -173,12 +173,12 @@ if __name__ == "__main__":
                     break
                 
                 elif 'open time table' in query:
-                    webbrowser.open("https://myupes-beta.upes.ac.in/connectportal/user/student/curriculum-scheduling")
+                    webbrowser.open("Update with your time table link")
                     task = 1
                     break
                 
                 elif 'play music on spotify' in query:
-                    webbrowser.open("https://open.spotify.com/playlist/6mCk9W2T1fq2SAKrXoeyU3?si=577a48e35ce444c6&pt=a9017f7a4c94e53b39d1529dab42897e")
+                    webbrowser.open("Update with spotify link or any playlist list")
                     task = 1
                     break
                 
@@ -194,7 +194,7 @@ if __name__ == "__main__":
                     break
                     
                 elif 'play music on computer' in query:
-                    music_dir = 'D:\\Vinayak\\AYAK\\Ayak Songs' # \\ to escape character
+                    music_dir = 'Update With Your Directory' # \\ to escape character
                     songs = os.listdir(music_dir)
                     print(songs)
                     os.startfile(os.path.join(music_dir, songs[0]))
@@ -206,7 +206,7 @@ if __name__ == "__main__":
                     speak(f" Sir, the time is {strTime}")
                     
                 elif 'open vs code' in query:
-                    code_path = "C:\\Users\\vinnu\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                    code_path = "Update with the directory of your VS Code"
                     os.startfile(code_path)
                     task = 1
                     break
@@ -221,7 +221,7 @@ if __name__ == "__main__":
                     try:
                         speak("What should I say?")
                         content = takeCommand()
-                        to = "vinnuchauhan953@gmail.com"
+                        to = "ReceiverEmail"
                         sendEmail(to, content)
                         speak("Email has been sent!")
                     except Exception as e:
