@@ -10,11 +10,12 @@ Before using any features, the assistant will ask you to say a password (like â€
 <br>
 You can change this password in the code to whatever phrase you like.
 <br>
+<br>
 Example in the code
 <br>
 if 'today is sunday' in query:
 <br>
-    # You can replace 'today is sunday' with your own secret phrase
+    You can replace 'today is sunday' with your own secret phrase
     
 
 **Vinayakaa** is a fun and powerful voice assistant built in Python. Just speak, and it can do things like:
